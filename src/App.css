@@ -6,3 +6,10 @@
   margin:0;
   font-family: 'Poppins', sans-serif;;
 }
+
+.container{
+  display: flex;
+  margin-top: 1rem;
+}
+
+
