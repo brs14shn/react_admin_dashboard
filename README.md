@@ -1,4 +1,4 @@
-[Click for my project👉](https://reactnews-xi.vercel.app/)
+[Click for my project👉](reactadmindashboard.vercel.app)
 
 ### 🚩 PROJECT STRUCTURE
 
@@ -37,14 +37,15 @@
 
 
 ### 🚩 How does my project look
-[]()
+[]()![dashboard1](https://user-images.githubusercontent.com/99876715/199489002-5e776fa2-3986-4603-b69a-186349cdeaf6.gif)
+
 
 
 ### 🚩 How To Use
 
 To clone and run this application, you'll need Git
 ```
-# Clone this repository ($ git clone https://github.com/)
+# Clone this repository ($ git clone https://github.com/brs14shn/react_admin_dashboard/)
 > run command npm install
 > Open the runserver
 ```
