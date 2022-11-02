@@ -52,7 +52,7 @@ export const newMemberRows = [
     {
         id: 5,
         username: "Emma Watson",
-        avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+        avatar: "https://randomuser.me/api/portraits/women/1.jpg",
         occupation: "Product Manager"
     }
 ]

@@ -1,25 +1,29 @@
+import { Visibility } from "@mui/icons-material";
 import React from "react";
 
 import { newMemberRows } from "../helper/dummyData";
-import { NewMembersContainer } from "./styles/NewMember.styled";
+import { NewMembersContainer,NewMembersTitle,NewMembersImg,NewMembersList,NewMembersUsers,NewMembersButton } from "./styles/NewMember.styled";
 
 const NewMembers = () => {
   return (
     <NewMembersContainer>
-      <span>New Members</span>
-      <ul>
+      <NewMembersTitle>New Members</NewMembersTitle>
+      <NewMembersList>
         {newMemberRows &&
           newMemberRows.map((member) => (
-            <li>
-              <img src={newMemberRows[0].avatar} alt="" />
-              <div>
-                <span>{newMemberRows[0].username}</span>
-                <span>{newMemberRows[0].occupation}</span>
-              </div>
-              <button></button>
+            <li className="NewMembersListItem">
+              <NewMembersImg src={member.avatar} alt="" />
+              <NewMembersUsers>
+                <span className="username">{member.username}</span>
+                <span className="title" >{member.occupation}</span>
+              </NewMembersUsers>
+             
+              <NewMembersButton>
+              <Visibility className="icon"/>
+                Display</NewMembersButton>
             </li>
           ))}
-      </ul>
+      </NewMembersList>
     </NewMembersContainer>
   );
 };
