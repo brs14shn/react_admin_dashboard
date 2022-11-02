@@ -1,5 +1,5 @@
 import React from 'react'
-import {FeaturedContainer,FeaturedWrapper,FeaturedTitle,FeaturedMoneyContainer} from './styles/Featured.styled'
+import {FeaturedContainer,FeaturedWrapper,FeaturedTitle,FeaturedMoneyContainer,FeaturedSub} from './styles/Featured.styled'
 import {featuredData} from "../helper/dummyData"
 import { ArrowUpward } from '@mui/icons-material'
 
@@ -10,10 +10,11 @@ const Featured = () => {
         <FeaturedWrapper key={index}>
         <FeaturedTitle>{item.title}</FeaturedTitle>
         <FeaturedMoneyContainer>
-            <span>{item.money}</span>
-            <span>{item.moneyRate}</span><ArrowUpward/>
+            <span className='featuredMoney'>{item.money}</span>
+            <span className='featuredMoneyRate' >{item.moneyRate}</span>
+            <ArrowUpward  color="green" className='featuredIcon' />
         </FeaturedMoneyContainer>
-        <span>Compared to Previous month</span>
+        <FeaturedSub>Compared to Previous month</FeaturedSub>
     </FeaturedWrapper>
        ))}
        

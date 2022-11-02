@@ -11,7 +11,7 @@ const Navbar = () => {
         <NavbarWrapper>
             <TopLeft>
                 <Logo>
-                    Admin
+                   -DASHBOARD-
                 </Logo>
 
             </TopLeft>

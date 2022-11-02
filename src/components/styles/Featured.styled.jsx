@@ -21,4 +21,30 @@ export const FeaturedMoneyContainer = styled.div`
     margin: 10px 0px;
     display: flex;
     align-items: center;
+
+    .featuredMoney{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .featuredMoneyRate{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .featuredIcon{
+        font-size: 24px;
+        margin-left: 5px;
+        color:green;
+        font-weight: 800;
+        /* color: ${({ color }) => color && 'red'}; */
+    }
+   .featuredIcon.negative{
+        color: red;
+    }
+    `
+
+export const FeaturedSub = styled.span`
+    font-size: 15px;
+    color: gray;
 `
