@@ -21,3 +21,38 @@ export const userData = [
     {name:"Nov" , "Active User":7000},
     {name:"Dec" , "Active User":3000},
 ]
+
+
+
+export const newMemberRows = [
+    {
+        id: 1,
+        username: "Erhan TEZER",
+        avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+        occupation: "Software Engineer"
+    },
+    {
+        id: 2,
+        username: "Ömer NARMANLI",
+        avatar: "https://randomuser.me/api/portraits/men/10.jpg",
+        occupation: "Full Stack Developer"
+    },
+    {
+        id: 3,
+        username: "Emre EKEN",
+        avatar: "https://randomuser.me/api/portraits/men/15.jpg",
+        occupation: "Backend Developer"
+    },
+    {
+        id: 4,
+        username: "Emilia Clarke",
+        avatar: "https://randomuser.me/api/portraits/women/34.jpg",
+        occupation: "Senior Manager"
+    },
+    {
+        id: 5,
+        username: "Emma Watson",
+        avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+        occupation: "Product Manager"
+    }
+]
